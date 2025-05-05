@@ -1,11 +1,19 @@
-# kanban-style-board
-Steps for run, write in terminal
+# Kanban Task Dashboard
 
-// step 1 -> install all depedency
-npm i
+A Kanban-style task management dashboard built with React. Users can create, view, drag & drop tasks between columns, and persist changes using a mock REST API (json-server).
 
-// step 2 -> run json file for store data
+---
+
+## 🔧 Setup Instructions
+
+### Step 1 – Install all dependencies
+npm install
+
+
+
+### Step 2 – Start the mock API server (json-server)
 npx json-server --watch db.json --port 3001
 
-// step 3 -> start repo
+
+### Step 3 – Start the React development server
 npm start
